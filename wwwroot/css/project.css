@@ -1,0 +1,60 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+h2 {
+    width: 100%;
+    margin: 80px auto;
+    max-width: 940px;
+    padding: 0 10px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    font-size: 40px;
+}
+
+    h2 span {
+        background: aqua;
+        padding: 0 15px;
+        position: relative;
+        z-index: 1;
+    }
+
+    h2:before {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+
+    h2:before {
+        left: 0;
+    }
+
+div {
+    text-align: justify;
+}
+
+    div img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+    div:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
